@@ -1,0 +1,85 @@
+body {
+        margin: 0;
+      }
+      .nav-out {
+        font-family: "Fira Sans", sans-serif;
+        padding-top: 10px;
+        background: #34d2cf;
+        display: inline-block;
+        width: 100%;
+      }
+
+      #logo {
+        margin-left: 15px;
+      }
+      #myid {
+        vertical-align: top;
+        margin-top: 5px;
+        float: right;
+        font-size: 21px;
+        border: 2px solid black;
+        padding: 3px 5px;
+        cursor: pointer;
+        display: none;
+        margin-right: 7px;
+      }
+
+      #myid:hover {
+        color: #96cf6f;
+        border: 2px solid #96cf6f;
+      }
+      .links-container {
+        vertical-align: top;
+        margin-top: 7px;
+        display: inline-block;
+        float: right;
+        margin-right: 7px;
+      }
+
+      .links-container a {
+        text-decoration: none;
+      }
+      .links-container div {
+        display: inline-block;
+        margin: 0 7px;
+        vertical-align: top;
+        margin-top: 10px;
+        padding: 5px 9px;
+        border-radius: 3px;
+      }
+
+      .links-container div:hover {
+        background: #96cf6f;
+        color: white;
+      }
+
+      .active {
+        background: #96cf6f;
+        color: white;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .links-container {
+          margin: 0;
+          display: block;
+          width: 100%;
+          background: #f4f4f4;
+          display: none;
+        }
+        .links-container div {
+          width: 100%;
+          padding: 15px 10px;
+          margin: 0;
+          border-radius: 0;
+        }
+        .links-container div:hover {
+          background: #96cf6f;
+          color: white;
+        }
+        #myid {
+          display: block;
+        }
+        .active-div {
+          background: #96cf6f;
+        }
+      }
