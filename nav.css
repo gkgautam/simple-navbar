@@ -1,10 +1,11 @@
 body {
         margin: 0;
+        background-color: #f1deb6;
       }
       .nav-out {
         font-family: "Fira Sans", sans-serif;
         padding-top: 10px;
-        background: #34d2cf;
+        background: #b5c1ca;
         display: inline-block;
         width: 100%;
       }
@@ -49,7 +50,7 @@ body {
       }
 
       .links-container div:hover {
-        background: #96cf6f;
+        background: #91338d;
         color: white;
       }
 
@@ -73,7 +74,7 @@ body {
           border-radius: 0;
         }
         .links-container div:hover {
-          background: #96cf6f;
+          background: #91338d;
           color: white;
         }
         #myid {
@@ -83,3 +84,23 @@ body {
           background: #96cf6f;
         }
       }
+      .headline {
+        font-family: "Fira Sans", sans-serif;
+        padding-top: 10px;
+        /**background: #b5c1ca;**/
+        display: inline-block;
+        width: 50%;
+      }
+      img {
+  width: 50%;
+}
+#content11{
+  width: 45%;
+  float: right;
+}
+#America{
+  width: 45%;
+  float: right;
+  margin: 10;
+  top: 10cm;
+}
